@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.main {
+    height: 600px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.contents {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    padding: 50px 0;
+    margin: 20px 40px;
+    font-size: 40px;
+}
+
+.btn a {
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: white;
+    text-decoration: none;
+}

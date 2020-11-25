@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ToDo内容変更</title>
+    </head>
+    <body>
+        <div class="display_area">
+            <form>
+                <!--以下インプットエリアに更新させたい情報を記載させる-->
+                <!--IDを記載させる-->
+                <input type="text" class="id" id="idValue" placeholder="IDを半角で入力">
+                <!--nameを記載させる-->
+                <input type="text" class="name" id="nameValue" placeholder="nameを入力">
+                <!--todoを記載させる-->
+                <input type="text" class="todo" id="todoValue" placeholder="todoを入力">
+                <input type="button" value="内容を更新する" class="todo_update" id="todoUpdate" onclick="updateBTN()">
+            </form>
+        </div>
+    </body>
+    <script src="update.js"></script>
+</html>
